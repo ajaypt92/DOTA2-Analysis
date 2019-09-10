@@ -31,9 +31,26 @@ This always changes over time, and is driven by community opinion, professional 
 * Bug Fixes (Minor updates usually)
 
 ## So, what VARIABLES can encapsulate the response of the designer’s questions?
+
 * Game characteristics
   * Rubber banding (rate of matches with comebacks)
   * Increase in hero synergies, win rates, etc.
   * Increase in item usage
   * Increase or Decrease of heroes played in Captain’s mode*
   * Increase or Decrease of heroes (not available in Captain’s mode) being played in other modes*
+  
+* Player engagement
+ * # of concurrent players
+ * Rate of playing matches
+ * # of online vs # of offline matches
+ 
+* Update characteristics
+ * Gap between the last update
+ * Previous Patch type
+
+* Bug reports
+ * NLP Search machine on Reddit maybe?*
+
+## Let’s take a look at the individual variables!
+
+### What DATA are we using?
