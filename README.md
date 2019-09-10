@@ -29,3 +29,11 @@ This always changes over time, and is driven by community opinion, professional 
 * Rubber banding / anti rubber banding
 * Counter balances to major patches (Minor updates usually)
 * Bug Fixes (Minor updates usually)
+
+## So, what VARIABLES can encapsulate the response of the designer’s questions?
+* Game characteristics
+  * Rubber banding (rate of matches with comebacks)
+  * Increase in hero synergies, win rates, etc.
+  * Increase in item usage
+  * Increase or Decrease of heroes played in Captain’s mode*
+  * Increase or Decrease of heroes (not available in Captain’s mode) being played in other modes*
