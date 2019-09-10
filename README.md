@@ -6,7 +6,7 @@ Dota 2 is a popular multiplayer online game developed by Valve that pits two tea
 This analysis is to be able to identify and analyze the changing game metas and be able to provide a framework to inform designers on what subsequent updates need to focus on.
 
 One of the things that influence game updates the most, in a MOBA such as DOTA 2 is…
-**###### Game META **
+**Game META**
 
 ## What is a META?
 The metagame (also called the meta) is the current trend that is often considered to be the optimal way to play the game by the community. 
