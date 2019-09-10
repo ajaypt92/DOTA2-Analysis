@@ -108,3 +108,5 @@ The chord graph makes it difficult to see how hero-pairs are related to each oth
 
 > __*Figure 11: Relationship between Wraith King and Ursa from Figure 10*__
 ![Relationship between Wraith King and Ursa from Figure 10](https://github.com/ajaypt92/DOTA2Analysis/blob/master/Visualizations/Fig11.png)
+
+So far in this project, I’ve created a framework to explore and assess the relationships and success between heroes with visualizations. In these visualizations, I’ve explored time series analysis, part to whole and ranking analysis, correlation analysis, multivariate analysis, and a couple different types of network analysis. This analysis will help us understand trends in the use of heroes that can be identified to see which heroes need tp be nerfed or buffed for future updates. For future work, I’m also working with this data to try to use machine learning techniques to establish predictions for victory depending on hero pairs.
