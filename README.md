@@ -60,8 +60,12 @@ This always changes over time, and is driven by community opinion, professional 
 ### The HERO Equation
 The sheer number of heroes in the game, combined with how unique each one is, makes for there to be synergies and combinations that are more successful than others. This causes it is extremely difficult for even professional players to navigate the hero picking process leading to a victory. 
 
-From Figure 2., we can see that there is a significant difference in picks across the cast of heroes.  The general tendency for people would think that successful heroes are picked more often.  It’s easy to jump to the conclusion that Windranger and Shadow Fiend must have very high win rates and that Chen and Elder Titan have very low win rates. This would be a hasty and erroneous conclusion.  In Figure 3, we add a secondary axis to show each hero’s win rate, a dotted red line to show the 50% mark, and lower the alpha of the bars to make the points easier to see.
+From Figure 2., we can see that there is a significant difference in picks across the cast of heroes. The general tendency for people would think that successful heroes are picked more often. It’s easy to jump to the conclusion that Windranger and Shadow Fiend must have very high win rates and that Chen and Elder Titan have very low win rates. This would be a hasty and erroneous conclusion. In Figure 3, we add a secondary axis to show each hero’s win rate, a dotted red line to show the 50% mark, and lower the alpha of the bars to make the points easier to see.
 
 > __*Figure 2*__
 ![Frequency of Hero Picks](https://github.com/ajaypt92/DOTA2Analysis/blob/master/Visualizations/Fig2.png)
 
+> __*Figure 3*__
+![Frequency of Hero Picks](https://github.com/ajaypt92/DOTA2Analysis/blob/master/Visualizations/Fig3.png)
+
+Figure 3 makes it much easier to see how assumptions about the relationship between pick rate and win rate aren’t straight forward.  In the top 12 most picked heroes, there is an even 6-6 split between being in the top or bottom half of win rate.  On the other hand, for 12 least picked heroes, 8 have win rates less than 50%. Later on we’ll see that this isn’t even a great measure of hero performance.  Dota 2 is first and foremost a team game.  An individual hero’s performance isn’t a good measure because we need to see and understand how heroes interact with each other. If you’re starting a pickup game of basketball and have a whole bunch of people to pick from, you don’t want to pick 5 people that primarily want to play point. You need to form a balanced team of people that play well together and compliment each other. The same concept is true for Dota 2.
