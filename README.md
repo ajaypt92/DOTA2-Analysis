@@ -16,3 +16,16 @@ This always changes over time, and is driven by community opinion, professional 
 * How often do we need to help shift the meta?
 * Is the game getting stale for our player base?
 * Can we think of introducing a new element in the game that will have effects in the meta?
+* A new hero, perhaps?
+* Can we modify the existing elements of the core game mechanics (excluding those concerning monetization) that will cause a shift in the meta?
+* Is the current and most popularly chased meta something desirable from a game functionality perspective?
+
+## How can we CLASSIFY each major game update?
+* Map changes
+* Item additions or changes
+* Hero Rebalances
+* New Hero addition
+* Game mechanics changes
+* Rubber banding / anti rubber banding
+* Counter balances to major patches (Minor updates usually)
+* Bug Fixes (Minor updates usually)
