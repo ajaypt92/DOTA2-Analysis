@@ -11,3 +11,8 @@ One of the things that influence game updates the most, in a MOBA such as DOTA 2
 ## What is a META?
 The metagame (also called the meta) is the current trend that is often considered to be the optimal way to play the game by the community. 
 This always changes over time, and is driven by community opinion, professional players, and balance patches.
+
+## What are some of the important QUESTIONS for a designer when it comes to the game meta?
+* How often do we need to help shift the meta?
+* Is the game getting stale for our player base?
+* Can we think of introducing a new element in the game that will have effects in the meta?
