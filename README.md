@@ -84,3 +84,27 @@ Another way to visualize hero pairs is by chord diagram.  Figure 6 is an unlabel
 
 > __*Figure 6: A chord diagram of all Hero pairs*__
 ![A chord diagram of all Hero pairs](https://github.com/ajaypt92/DOTA2Analysis/blob/master/Visualizations/Fig6.png)
+
+I started off by only allowing pairs that were at least as frequent as the first quartile (37 games) of overall pick frequency, and then picking pairs that had a minimum of a 60% win rate to get Figure 7.  For reference, these combinations represent the top 6% winningest combinations of recorded hero pairs.  This figure still mostly looks like a bowl of rainbow spaghetti, but we’re at least able to trace some of links.  Additionally, the size of each hero’s arc shows us how many other heroes they pair up with at 60% win rate or higher.  Omniknight, Abaddon, Wraith King, Ursa, and Spectre all have a lot of links, implying that they have more utility with successful pairs and can be fit into more team combinations than heroes with smaller slices, like Visage. An interesting thing to note here is that Shadow Fiend (near the 11 o’clock position), the second most popular hero, has a tiny sliver and has just 2 other heroes with whom he shares a 60+% win rate with.  Additionally Windranger, the most popular hero, isn’t even represented in this grouping.
+
+
+> __*Figure 7: Chord diagram of 60+% win rate hero pairs*__
+![Chord diagram of 60+% win rate hero pairs](https://github.com/ajaypt92/DOTA2Analysis/blob/master/Visualizations/Fig7.png)
+
+If we narrow the selection of hero pairs down even further, to win rates 65% and higher, we get Figure 8.  This is top 2% winningest combinations for hero pairs.  Here, the dominance of Omniknight, Ursa, and Wraith King grow while Abaddon stays about the same and Specter becomes less common.  The heroes here have displayed are significantly represented in picks, and win a lot with their links.  The heroes with more links win a lot with more different teams.  Coincidentally, the heroes here with the biggest arc lengths are also, generally, easy to play.  This makes them great choices for beginners.  If you’re already knowledgeable about Dota 2 heroes, then you can use the diagram to draw conclusions about why these pairs work well together.  For example, Lich is paired with Wraith King, Disruptor, Spectre, and Slardar.  Lich synergizes very well with all of these heroes due to his abilities being able to slow and stun, either covering some of his partner’s weaknesses or pairing with their abilities to get more bang for your buck.
+
+> __*Figure 8: Chord diagram of 65+% win rate hero pairs. Top 2% of hero-pair win rates*__
+![Chord diagram of 65+% win rate hero pairs. Top 2% of hero-pair win rates](https://github.com/ajaypt92/DOTA2Analysis/blob/master/Visualizations/Fig8.png)
+
+It’s important to adjust for hero success when looking for these links.  If you were to go through the same method for Figure 8, but instead of looking at win rate, you look at just hero pick frequency, then you get Figure 9.  Windranger and Shadow Fiend reappear, representing nearly 1/3rd of the pairs.  The mean win rate of Figure 9 is pretty much a coin toss, weighing in at just 50.5%.  For comparison, the mean win rate for the pairs in Figure 8 is 67.5%.
+
+> __*Figure 9: Chord Diagram of top 2% of pick frequency*__
+![Chord Diagram of top 2% of pick frequency](https://github.com/ajaypt92/DOTA2Analysis/blob/master/Visualizations/Fig9.png)
+
+The chord graph makes it difficult to see how hero-pairs are related to each other.  Figure 10 solves this by showing the intra-pairing relationships by laying out each hero into a network.  The color is scaled between lower (red) and higher (blue) win rates and the width of each connection is scaled by how many times each pair was picked.  Heroes can then be related to each other by seeing who they have in common or how far removed they are from everyone else.  For example, Brewmaster is way out on the fringe, only connected to one person (Mirana) who is also only connected to one person (Lycan).  An example of indirect similarity is Ursa and Wraith King.  They don’t have any direct connection, but they share connections to each other through Medusa, Omniknight, Venomancer, and Zeus.  It’s hard to see in Figure 10, so I singled them out in Figure 11.  Relationships like this should mean that each indirect hero-link alludes to the heroes having similar roles.
+
+> __*Figure 10: Network of hero pairs with 65+% win rate*__
+![Network of hero pairs with 65+% win rate](https://github.com/ajaypt92/DOTA2Analysis/blob/master/Visualizations/Fig10.png)
+
+> __*Figure 11: Relationship between Wraith King and Ursa from Figure 10*__
+![Relationship between Wraith King and Ursa from Figure 10](https://github.com/ajaypt92/DOTA2Analysis/blob/master/Visualizations/Fig11.png)
