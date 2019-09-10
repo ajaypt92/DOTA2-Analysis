@@ -62,6 +62,6 @@ The sheer number of heroes in the game, combined with how unique each one is, ma
 
 From Figure 2., we can see that there is a significant difference in picks across the cast of heroes.  The general tendency for people would think that successful heroes are picked more often.  It’s easy to jump to the conclusion that Windranger and Shadow Fiend must have very high win rates and that Chen and Elder Titan have very low win rates. This would be a hasty and erroneous conclusion.  In Figure 3, we add a secondary axis to show each hero’s win rate, a dotted red line to show the 50% mark, and lower the alpha of the bars to make the points easier to see.
 
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ### __*Figure 2*__
+> __*Figure 2*__
 ![Frequency of Hero Picks](https://github.com/ajaypt92/DOTA2Analysis/blob/master/Visualizations/Fig2.png)
 
